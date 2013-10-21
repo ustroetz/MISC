@@ -1,6 +1,5 @@
 # determines the distance from points in a shapefile to the destination specified in as a attribute in the shapfile
 import requests
-import json
 import ogr
 
 def routing(start,stop):
@@ -8,8 +7,7 @@ def routing(start,stop):
     headers = {'User-Agent': 'Forestry Scenario Planner'}
     url = 'http://router.project-osrm.org/viaroute?loc=' + start + '&loc=' + stop
     response = requests.get(url, headers=headers)
-    binary = response.content
-    data = json.loads(binary)
+    data = response.json()
 
     # parse json string for distance
     total_summary = data['route_summary']
