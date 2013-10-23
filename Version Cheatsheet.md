@@ -1,4 +1,13 @@
-MISC
-====
+Version Cheatsheet
 
-all kinds of stuff
+###### GDAL Python is using
+```
+import gdal
+gdal.VersionInfo()
+```
+
+
+###### GDAL easy_install installed
+```
+easy_install GDAL
+```
