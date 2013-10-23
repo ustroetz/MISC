@@ -1,4 +1,4 @@
-# Installing+Working
+# Installing + Working
 Installing programs and getting them to work
 
 ## Windows
