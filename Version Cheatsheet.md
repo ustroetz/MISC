@@ -1,7 +1,6 @@
 # Version Cheatsheet
 
 ###### Python
-in command line
 ```
 python --version
 ```
