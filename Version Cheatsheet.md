@@ -1,5 +1,11 @@
 # Version Cheatsheet
 
+###### Python
+in command line
+```
+python --version
+```
+
 ###### GDAL Python is using
 ```
 import gdal
