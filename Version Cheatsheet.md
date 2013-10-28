@@ -11,7 +11,7 @@ import gdal
 gdal.VersionInfo()
 ```
 
-##### GDAL command line
+###### GDAL command line
 ```
 gdalinfo --version
 ````
