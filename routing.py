@@ -4,9 +4,8 @@ import ogr
 
 def routing(start,stop):
 
-    headers = {'User-Agent': 'Forestry Scenario Planner'}
     url = 'http://router.project-osrm.org/viaroute?loc=' + start + '&loc=' + stop
-    response = requests.get(url, headers=headers)
+    response = requests.get(url)
     data = response.json()
 
     # parse json string for distance
