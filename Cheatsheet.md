@@ -59,3 +59,9 @@ $ python -m site --user-site
 >>>import numpy
 >>>numpy.__file__
 ````
+
+## Path Variable
+###### show Path variable
+```
+$echo $PATH
+```
