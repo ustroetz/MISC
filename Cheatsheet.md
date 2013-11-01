@@ -44,3 +44,8 @@ $ pip freeze
 ```
 $ which python
 ````
+###### Location of Numpy python is using
+```
+import numpy
+numpy.__file__
+````
