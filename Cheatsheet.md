@@ -38,3 +38,9 @@ $ easy_install GDAL
 ```
 $ pip freeze
 ```
+
+## Location
+## Location of Python
+```
+$ which python
+````
