@@ -14,14 +14,14 @@ $ python --version
 
 ###### Numpy
 ```
-import numpy
-numpy.__version__
+>>>import numpy
+>>>numpy.__version__
 ```
 
 ###### GDAL Python is using
 ```
-import gdal
-gdal.VersionInfo()
+>>>import gdal
+>>>gdal.VersionInfo()
 ```
 
 ###### GDAL command line
@@ -46,13 +46,16 @@ $ which python
 ````
 
 ###### Location of Python site packages
+````
+$ python -m site --user-site
+````
 ```
-import site
-site.getsitepackages()
+>>>import site
+>>>site.getsitepackages()
 ````
 
 ###### Location of Numpy Python is using
 ```
-import numpy
-numpy.__file__
+>>>import numpy
+>>>numpy.__file__
 ````
