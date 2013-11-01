@@ -63,5 +63,5 @@ $ python -m site --user-site
 ## Path Variable
 ###### Show Path Variable
 ```
-$echo $PATH
+$ echo $PATH
 ```
