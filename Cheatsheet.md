@@ -12,6 +12,12 @@ http://gdal.org/python/
 python --version
 ```
 
+###### Numpy
+```
+import numpy
+numpy.version.version
+```
+
 ###### GDAL Python is using
 ```
 import gdal
