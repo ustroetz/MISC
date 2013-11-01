@@ -44,6 +44,13 @@ $ pip freeze
 ```
 $ which python
 ````
+
+###### Location of Python site packages
+```
+import site
+site.getsitepackages()
+````
+
 ###### Location of Numpy Python is using
 ```
 import numpy
