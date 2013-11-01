@@ -9,7 +9,7 @@ http://gdal.org/python/
 
 ###### Python
 ```
-python --version
+$ python --version
 ```
 
 ###### Numpy
@@ -26,9 +26,15 @@ gdal.VersionInfo()
 
 ###### GDAL command line
 ```
-gdalinfo --version
+$ gdalinfo --version
 ````
 ###### GDAL easy_install installed
 ```
-easy_install GDAL
+$ easy_install GDAL
+```
+
+## Python site packages
+###### Installed site packages
+```
+$ pip freeze
 ```
