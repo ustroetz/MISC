@@ -40,7 +40,7 @@ $ pip freeze
 ```
 
 ## Location
-## Location of Python
+###### Location of Python
 ```
 $ which python
 ````
