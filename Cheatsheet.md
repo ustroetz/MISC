@@ -36,6 +36,9 @@ $ easy_install GDAL
 ## Python site packages
 ###### Installed site packages
 ```
+$ pip list
+```
+```
 $ pip freeze
 ```
 
@@ -43,10 +46,14 @@ $ pip freeze
 ###### Location of Python
 ```
 $ which python
-````
+```
+```
+>>> import sys
+>>> sys.prefix
+```
 
 ###### Location of Python site packages
-````
+```
 $ python -m site --user-site
 ````
 ```
