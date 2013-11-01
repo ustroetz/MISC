@@ -15,7 +15,7 @@ $ python --version
 ###### Numpy
 ```
 import numpy
-numpy.version.version
+numpy.__version__
 ```
 
 ###### GDAL Python is using
@@ -44,7 +44,7 @@ $ pip freeze
 ```
 $ which python
 ````
-###### Location of Numpy python is using
+###### Location of Numpy Python is using
 ```
 import numpy
 numpy.__file__
