@@ -1,6 +1,10 @@
 # Installing + Working
 Installing programs and getting them to work
 
+## Mac OS X
+#### Python
+
+
 ## Windows
 #### Python
 site packages are under `C:\Python27\Lib\site-packages`
