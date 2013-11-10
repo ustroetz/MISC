@@ -15,13 +15,6 @@ Installing programs and getting them to work
 ```
 pip install numpy
 ```
-check if it works
-```
-import numpy
-print numpy.__version__
-print numpy.__file__
-quit()
-```
 
 
 ## Windows
