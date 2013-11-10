@@ -4,12 +4,12 @@ Installing programs and getting them to work
 ## Mac OS X
 #### Python Site packages
 ######  GDAL for virtual env
-Download GDAL - http://www.kyngchaos.com/software/frameworks
-Install GDAL
-Go to '/Library/Frameworks/GDAL.framework/Versions/1.10/Python/2.7/site-packages'
-cmd + c
-Go to 'venv/lib/python2.7/site-packages'
-cmd + v
+1. Download [GDAL] (http://www.kyngchaos.com/software/frameworks)
+2. Install GDAL
+3. Go to `/Library/Frameworks/GDAL.framework/Versions/1.10/Python/2.7/site-packages`
+4. cmd + c
+5. Go to `venv/lib/python2.7/site-packages`
+6. cmd + v
 
 ######  Numpy
 ```
