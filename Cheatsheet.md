@@ -33,6 +33,16 @@ $ gdalinfo --version
 $ easy_install GDAL
 ```
 
+## Virtual enviroment 
+###### Create virtual env
+```
+virtualenv --distribute venv 
+```
+###### Start virtual env
+```
+source venv/bin/activate
+```
+
 ## Python site packages
 ###### Installed site packages
 ```
