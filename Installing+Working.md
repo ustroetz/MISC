@@ -30,4 +30,4 @@ You find that out by typing `python` in the command line.
 ######  GRASS GIS (grass.script)
 * Download OSGeo4W installer (32bit if Python is 32bit).
 * Set Enviroment Variables
-** set GISBASE=C:\OSGeo4W\apps\grass\grass-6.4.3
+    * set GISBASE=C:\OSGeo4W\apps\grass\grass-6.4.3
