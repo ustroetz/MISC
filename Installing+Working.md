@@ -31,7 +31,7 @@ You find that out by typing `python` in the command line.
 * Download OSGeo4W installer (32bit if Python is 32bit).
 * Set Enviroment Variables
     * set GISBASE=C:\OSGeo4W\apps\grass\grass-6.4.3
-    * set GISRC=???
+    * set GISRC=C:\Users\<username>\AppData\Roaming\GRASS6\.grassrc6
     * set LD_LIBRARY_PATH=C:\OSGeo4W\apps\grass\grass-6.4.3\lib
     * set PYTHONLIB=C:\Python27
     * set PYTHONPATH=C:\OSGeo4W\apps\grass\grass-6.4.3\etc\python
