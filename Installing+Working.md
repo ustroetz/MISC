@@ -31,3 +31,15 @@ You find that out by typing `python` in the command line.
 * Download OSGeo4W installer (32bit if Python is 32bit).
 * Set Enviroment Variables
     * set GISBASE=C:\OSGeo4W\apps\grass\grass-6.4.3
+    * set GISRC=???
+    * set LD_LIBRARY_PATH=C:\OSGeo4W\apps\grass\grass-6.4.3\lib
+    * set PYTHONLIB=C:\Python27
+    * set PYTHONPATH=C:\OSGeo4W\apps\grass\grass-6.4.3\etc\python
+    * set GRASS_SH=C:\OSGeo4W\apps\msys\bin\sh.exe
+    * set PATH=C:\OSGeo4W\apps\grass\grass-6.4.3\etc;
+               C:\OSGeo4W\apps\grass\grass-6.4.3\etc\python;
+               C:\OSGeo4W\apps\grass\grass-6.4.3\lib;
+               C:\OSGeo4W\apps\grass\grass-6.4.3\bin;
+               C:\OSGeo4W\apps\msys\bin;
+               C:\Python27
+python
