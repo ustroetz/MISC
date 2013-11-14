@@ -22,7 +22,10 @@ pip install numpy
 site packages are under `C:\Python27\Lib\site-packages`
 
 ######  GDAL
-Download GDAL for Python from [here] (http://www.lfd.uci.edu/~gohlke/pythonlibs/#gdal).
+* Download GDAL for Python from [here] (http://www.lfd.uci.edu/~gohlke/pythonlibs/#gdal).
 Pay attention if your Python is 32bit or 64bit and what version your Python is.
 You find that out by typing `python` in the command line.
-Set the environment variables.
+* Set the environment variables.
+
+######  GRASS GIS (grass.script)
+* Download OSGeo4W installer (32bit if Python is 32bit).
