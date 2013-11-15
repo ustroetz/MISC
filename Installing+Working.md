@@ -43,10 +43,9 @@ You find that out by typing `python` in the command line.
     * set PYTHONLIB=C:\Python27
     * set PYTHONPATH=C:\OSGeo4W\apps\grass\grass-6.4.3\etc\python
     * set GRASS_SH=C:\OSGeo4W\apps\msys\bin\sh.exe
-    * set PATH=C:\OSGeo4W\apps\grass\grass-6.4.3\etc;
-               C:\OSGeo4W\apps\grass\grass-6.4.3\etc\python;
-               C:\OSGeo4W\apps\grass\grass-6.4.3\lib;
-               C:\OSGeo4W\apps\grass\grass-6.4.3\bin;
-               C:\OSGeo4W\apps\msys\bin;
-               C:\Python27
-python
+    * set PATH=C:\OSGeo4W\apps\grass\grass-6.4.3\etc;<br>
+                  C:\OSGeo4W\apps\grass\grass-6.4.3\etc\python;<br>
+                  C:\OSGeo4W\apps\grass\grass-6.4.3\lib;<br>
+                  C:\OSGeo4W\apps\grass\grass-6.4.3\bin;<br>
+                  C:\OSGeo4W\apps\msys\bin;<br>
+                  C:\Python27<br>
