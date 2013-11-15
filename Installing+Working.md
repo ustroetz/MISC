@@ -19,10 +19,10 @@ pip install numpy
 ## Windows
 
 #### GDAL
-* Download OSGeo4W installer.
+* Download QGIS.
 * Set Environment Variables
-    * set GDAL_DATA=C:\OSGeo4W\apps\udig\gdal_data
-    * set path=C:\OSGeo4W\bin
+    * set GDAL_DATA=C:\Program Files\QGIS Dufour\share\gdal
+    * set path=C:\Program Files\QGIS Dufour\bin
     
 #### Python
 site packages are under `C:\Python27\Lib\site-packages`
@@ -35,7 +35,7 @@ You find that out by typing `python` in the command line.
 
 
 ######  GRASS GIS (grass.script)
-* Download OSGeo4W installer (32bit if Python is 32bit).
+* Download QGIS.
 * Set Enviroment Variables
     * set GISBASE=C:\OSGeo4W\apps\grass\grass-6.4.3
     * set GISRC=C:\Users\<username>\AppData\Roaming\GRASS6\.grassrc6
