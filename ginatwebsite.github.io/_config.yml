@@ -1,0 +1,19 @@
+url: "http://ginachiappetta.com"
+
+paginate: 10
+
+markdown: rdiscount
+permalink: pretty
+pygments: true
+
+
+prose:
+  siteurl: "http://ginachiappetta.com/"
+  media: "images"
+  ignore:
+    - CNAME
+    - css
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
