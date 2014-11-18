@@ -16,6 +16,9 @@ Installing programs and getting them to work
 pip install numpy
 ```
 
+######  Imposm
+https://gist.github.com/hanleybrand/8611994
+
 ## Windows
 
 #### GDAL
