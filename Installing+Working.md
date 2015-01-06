@@ -19,11 +19,19 @@ https://gist.github.com/hanleybrand/8611994
 #### Ruby
 ```
 brew install rbenv ruby-build
-rbenv install 2.1.4
+rbenv install -l     # list available ruby versions
+rbenv install 2.1.2  # install the ruby you want
+rbenv global 2.1.2   # set it as the default
 ```
-Add this to `.bash_profile`
+Add this add bottom of `.bash_profile`
 ```
 eval "$(rbenv init -)"
+```
+
+# cannot live without bundle
+```
+gem install bundler
+rbenv rehash
 ```
 
 #### Postgres
