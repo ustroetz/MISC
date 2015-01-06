@@ -27,8 +27,7 @@ Add this add bottom of `.bash_profile`
 ```
 eval "$(rbenv init -)"
 ```
-
-# cannot live without bundle
+cannot live without bundle
 ```
 gem install bundler
 rbenv rehash
