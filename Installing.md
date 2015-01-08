@@ -34,11 +34,18 @@ rbenv rehash
 ```
 
 #### Postgres
+```
 brew install postgres
 brew install postgis
-
+```
 install pgrouting from source
 
+lunchy to start and stop
+```
+gem install lunchy
 
+lunchy start postgres
+lunchy stop postgres
+```
 
 
