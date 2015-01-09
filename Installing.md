@@ -12,6 +12,19 @@ cd gdal-1.9.0
 make
 make install
 ```
+
+with libkml
+ustoetz: you need the current development version of libkml: https://github.com/google/libkml 
+sigq
+Title: google/libkml · GitHub (at github.com) 
+ustroetz
+Okay and what do I do with it? 
+← alexbruy has left  
+KyleS
+ustroetz: build it, then install it somewhere and use --with-libkml=/your/path/to/libkml/installation. 
+KyleS
+or if you install it to the system (ie /usr/local), --with-libkml should suffice. 
+
 ######  Imposm
 https://gist.github.com/hanleybrand/8611994
 
