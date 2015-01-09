@@ -5,13 +5,12 @@ Installing programs and getting them to work
 #### Python Site packages
 ######  GDAL for virtual env
 ```
-sudo apt-get install build-essential python-all-dev
 wget http://download.osgeo.org/gdal/gdal-1.9.0.tar.gz
 tar xvfz gdal-1.9.0.tar.gz
 cd gdal-1.9.0
 ./configure --with-python
 make
-sudo make install
+make install
 ```
 ######  Imposm
 https://gist.github.com/hanleybrand/8611994
