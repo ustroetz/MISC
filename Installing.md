@@ -50,7 +50,13 @@ rbenv rehash
 brew install postgres
 brew install postgis
 ```
-install pgrouting from source
+
+```
+git clone https://github.com/pgRouting/pgrouting.git #check out if build fails
+cmake .
+make
+make install
+```
 
 lunchy to start and stop
 ```
