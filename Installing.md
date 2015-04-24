@@ -9,9 +9,9 @@ brew install postgis
 
 ######  GDAL for virtual env
 ```
-wget http://download.osgeo.org/gdal/gdal-1.9.0.tar.gz
-tar xvfz gdal-1.9.0.tar.gz
-cd gdal-1.9.0
+wget http://download.osgeo.org/gdal/1.11.2/gdal-1.11.2.tar.gz
+tar xvfz gdal-1.11.2.tar.gz
+cd gdal-1.11.2
 ./configure --with-python
 make
 make install
