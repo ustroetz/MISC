@@ -1,8 +1,12 @@
-# Installing + Working
-Installing programs and getting them to work
+# Installing stuff
 
-## OS X
-#### Python Site packages
+```
+pip install imposm
+brew install osm2pgsql
+brew install postgres
+brew install postgis
+```
+
 ######  GDAL for virtual env
 ```
 wget http://download.osgeo.org/gdal/gdal-1.9.0.tar.gz
@@ -25,8 +29,7 @@ ustroetz: build it, then install it somewhere and use --with-libkml=/your/path/t
 KyleS
 or if you install it to the system (ie /usr/local), --with-libkml should suffice. 
 
-######  Imposm
-https://gist.github.com/hanleybrand/8611994
+
 
 #### Ruby
 ```
@@ -43,12 +46,6 @@ cannot live without bundle
 ```
 gem install bundler
 rbenv rehash
-```
-
-#### Postgres
-```
-brew install postgres
-brew install postgis
 ```
 
 ```
